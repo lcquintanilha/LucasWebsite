@@ -1,0 +1,107 @@
+/*
+#siteTitle
+.divImgPerfil
+#fotoPerfil
+.divText
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    box-sizing: border-box;
+    border: 0px;
+    font-family: 'Verdana';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    width: 75%;
+    height: 1000px;
+}
+
+#siteTitle {
+    font-size: 20px;
+    text-align: left;
+}
+
+.divImgPerfil {
+    width: 250px;
+}
+
+#fotoPerfil {
+    width: 100%;
+    border-radius: 20px;
+    border: solid 3px;
+    border-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.divText {
+    display: flex;
+    width: 600px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: justify;
+}
+
+.divMenu {
+    display: flex;
+    float: right;
+}
+
+header {
+    display: flex;
+    background-color: grey;
+    height: 100px;
+    align-items: center;
+    width: 75%;
+}
+
+#divHeader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    border: black solid 1px;
+    padding: 10px 15px 10px 5px;
+    border-radius: 15px;
+  }
+
+  a:hover {
+
+    color: white;
+  }
